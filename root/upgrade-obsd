@@ -42,7 +42,7 @@ finish() {
 	fw_update
 }
 
-#upgradekernel
-upgradeworld
-upgradexenocara
-finish
+upgradekernel
+#upgradeworld
+#upgradexenocara
+#finish
