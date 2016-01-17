@@ -1,0 +1,5 @@
+apmd_flags="-A"
+ntpd_flags="-s"
+multicast=YES
+pkg_scripts="dbus_daemon avahi_daemon tincd"
+tincd_flags="-U _tinc --chroot -n 2f30"
