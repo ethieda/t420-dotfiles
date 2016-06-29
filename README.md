@@ -1,1 +1,2 @@
-# t420-dotfiles
+# dotfiles for OpenBSD -current on a Lenovo Thinkpad T420
+
