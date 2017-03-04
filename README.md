@@ -1,3 +1,3 @@
-# OpenBSD -current dotfiles for my Lenovo Thinkpad T420 laptop.
+# OpenBSD -current amd64 on Lenovo Thinkpad T420
 
- [https://support.lenovo.com/us/en/documents/pd015734]
+These are the basic files and configuration which I use on my personal laptop.
