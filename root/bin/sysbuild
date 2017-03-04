@@ -1,0 +1,67 @@
+#!/bin/sh -e
+#
+# Build OpenBSD from source.  Works with 6.1 and onwards.
+#
+# Typical usage:
+#
+# sysbuild k && reboot
+# sysbuild w x f && reboot
+
+K=GENERIC.MP
+
+NCPU=$(sysctl -n hw.ncpufound)
+((NCPU==1)) && K=GENERIC
+
+upgradekernel() {
+	rm -rf /usr/obj/sys
+	cd /usr/src/sys/arch/$(machine)/compile/$K
+	make obj
+	make config
+	make
+	make install
+	chmod 644 /bsd
+}
+
+upgradeworld() {
+	rm -rf /usr/obj/*
+	cd /usr/src
+	make obj
+	make build
+}
+
+upgradexenocara() {
+	rm -rf /usr/xobj/*
+	cd /usr/xenocara
+	make bootstrap
+	make obj
+	make build
+}
+
+finish() {
+	cd /dev
+	cp /usr/src/etc/etc.$(machine)/MAKEDEV .
+	sh MAKEDEV all
+	sysmerge
+	fw_update
+}
+
+usage() {
+cat << EOF
+usage: upgrade-obsd [k] [w] [x] [f]
+k  Upgrade kernel
+w  Upgrade world
+x  Upgrade xenocara
+f  Finalize upgrade
+EOF
+exit 1
+}
+
+for arg in "$@"; do
+	case "$arg" in
+	k) upgradekernel ;;
+	w) upgradeworld ;;
+	x) upgradexenocara ;;
+	f) finish ;;
+	*) usage ;;
+	esac
+done

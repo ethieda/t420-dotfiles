@@ -1,0 +1,15 @@
+#!/bin/sh
+
+fifo="/tmp/mpv-$USER.fifo"
+
+if [ "$#" -gt 0 ]
+then
+        for media in "$@"
+        do
+                printf 'loadfile "%s" append\n' "$media" > "$fifo"
+        done
+else
+        printf 'Usage: mpvadd.sh file...'
+        exit 1
+fi
+
