@@ -6,7 +6,7 @@ Some configuration files I use.
 * Read [trunk(4)](http://man.openbsd.org/trunk) for information about `/etc/hostname.trunk0`
 * [doas.conf(5)](http://man.openbsd.org/doas.conf) AS CONFIGURED lets any user in the wheel group run any command as root.
 
-# Desktop
+# Desktop Setup and Applications
 * Install Git: ```# pkg_add git```
 * Tiling Window Manager: [dwm](http://dwm.suckless.org/) (compiled from source) ```$ git clone git://git.suckless.org/dwm/```
 * Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) (compiled from source) ```$ git clone git://git.suckless.org/dmenu/```
