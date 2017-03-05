@@ -2,8 +2,8 @@
 
 Some configuration files I use.
 
-* Replace **$wifi** and **$password** on /etc/hostname.iwn0 before using [netstart](http://man.openbsd.org/netstart) or read [hostname.if(5)](http://man.openbsd.org/hostname.if)
-* Read [trunk(4)](http://man.openbsd.org/trunk) for information about /etc/hostname.trunk0
+* Replace **$wifi** and **$password** on `/etc/hostname.iwn0` before using [netstart](http://man.openbsd.org/netstart) or read [hostname.if(5)](http://man.openbsd.org/hostname.if)
+* Read [trunk(4)](http://man.openbsd.org/trunk) for information about `/etc/hostname.trunk0`
 * [doas.conf(5)](http://man.openbsd.org/doas.conf) AS CONFIGURED lets any user in the wheel group run any command as root.
 
 # Desktop
