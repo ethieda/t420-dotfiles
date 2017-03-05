@@ -7,18 +7,13 @@ Some configuration files I use.
 * [doas.conf(5)](http://man.openbsd.org/doas.conf) AS CONFIGURED lets any user in the wheel group run any command as root.
 
 # Desktop
-* Tiling Window Manager: [dwm](http://dwm.suckless.org/)
-* Applications launcher: [dmenu](http://tools.suckless.org/dmenu/)
+* Install Git: ```# pkg_add git```
+* Tiling Window Manager: [dwm](http://dwm.suckless.org/) ```$ git clone git://git.suckless.org/dwm/```
+* Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) ```$ git clone git://git.suckless.org/dmenu/```
 * [feh](https://feh.finalrewind.org/) sets wallpaper in `~/.xinitrc` to [Croco Child By Bluro](https://interfacelift.com/wallpaper/details/3922/croco_child.html) from [Interface Lift Wallpapers](https://interfacelift.com/wallpaper/downloads/date/any/) @ 1366x768 screen resolution.
-  ```
-  # pkg_add feh
-  ```
+  ```# pkg_add feh```
 * Terminal: [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
-  ```
-  # pkg_add rxvt-unicode
-  ```
+  ```# pkg_add rxvt-unicode```
 * Shell: [ksh](http://man.openbsd.org/ksh)
 * Videos: [mpv](https://mpv.io/)
-  ```
-  # pkg_add mpv
-  ```
+  ```# pkg_add mpv```
