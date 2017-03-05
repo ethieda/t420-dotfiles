@@ -11,4 +11,3 @@ Some configuration files I use.
 * Applications launcher [dmenu](http://tools.suckless.org/dmenu/)
 * Terminal/Shell [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
 * Videos: [mpv](https://mpv.io/)
-*
