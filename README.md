@@ -9,6 +9,8 @@ Some configuration files I use.
 # Desktop
 * Tiling Window Manager: [dwm](http://dwm.suckless.org/)
 * Applications launcher: [dmenu](http://tools.suckless.org/dmenu/)
+* [feh](https://feh.finalrewind.org/) for setting wallpaper.
+* Wallpaper: [Croco Child By Bluro](https://interfacelift.com/wallpaper/details/3922/croco_child.html) @ 1366x768 screen resolution.
 * Terminal: [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
 * Shell: [ksh](http://man.openbsd.org/ksh)
 * Videos: [mpv](https://mpv.io/)
