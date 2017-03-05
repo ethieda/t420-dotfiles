@@ -9,5 +9,6 @@ Some configuration files I use.
 # Desktop
 * Tiling Window Manager [dwm](http://dwm.suckless.org/)
 * Applications launcher [dmenu](http://tools.suckless.org/dmenu/)
-* Terminal/Shell [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
+* Terminal [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
+* Shell [ksh](http://man.openbsd.org/ksh) OpenBSD's default shell is ksh, which is based on the public domain Korn shell.
 * Videos: [mpv](https://mpv.io/)
