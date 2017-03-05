@@ -7,6 +7,8 @@ Some configuration files I use.
 * [doas.conf(5)](http://man.openbsd.org/doas.conf) AS CONFIGURED lets any user in the wheel group run any command as root.
 
 # Desktop
-* [dwm](http://dwm.suckless.org/)
-* [dmenu](http://tools.suckless.org/dmenu/)
-* [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
+* Tiling Window Manager [dwm](http://dwm.suckless.org/)
+* Applications launcher [dmenu](http://tools.suckless.org/dmenu/)
+* Terminal/Shell [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
+* Videos: [mpv](https://mpv.io/)
+*
