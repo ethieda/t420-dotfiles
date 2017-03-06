@@ -14,7 +14,8 @@ Some configuration files I use.
 
 # Applications
 * Install Git: ```# pkg_add git```
-* Clone some repositories from [git.suckless.org](http://git.suckless.org/): ```$ for r in dwm dmenu sbase scc st; do git clone git://git.suckless.org/$r; done```
+* Clone some repositories from [git.suckless.org](http://git.suckless.org/):
+* ```$ for r in dwm dmenu sbase scc st; do git clone git://git.suckless.org/$r; done```
 * Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) (compiled from source)
 * [feh](https://feh.finalrewind.org/) sets wallpaper in `~/.xinitrc` to [Croco Child By Bluro](https://interfacelift.com/wallpaper/details/3922/croco_child.html) from [Interface Lift Wallpapers](https://interfacelift.com/wallpaper/downloads/date/any/) @ 1366x768 screen resolution.
 ``` # pkg_add feh```
