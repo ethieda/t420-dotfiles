@@ -10,11 +10,12 @@ Some configuration files I use.
 * Read [trunk(4)](http://man.openbsd.org/trunk) for information about `/etc/hostname.trunk0`
 
 # Desktop
-* Tiling Window Manager: [dwm](http://dwm.suckless.org/) (compiled from source) ```git clone git://git.suckless.org/dwm/```
+* Tiling Window Manager: [dwm](http://dwm.suckless.org/) (compiled from source)
 
 # Applications
 * Install Git: ```# pkg_add git```
-* Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) (compiled from source) ```git clone git://git.suckless.org/dmenu/```
+* Clone some repositories from [git.suckless.org](http://git.suckless.org/): ```$ for r in dwm dmenu sbase scc st; do git clone git://git.suckless.org/$r; done```
+* Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) (compiled from source)
 * [feh](https://feh.finalrewind.org/) sets wallpaper in `~/.xinitrc` to [Croco Child By Bluro](https://interfacelift.com/wallpaper/details/3922/croco_child.html) from [Interface Lift Wallpapers](https://interfacelift.com/wallpaper/downloads/date/any/) @ 1366x768 screen resolution.
 ``` # pkg_add feh```
 * Terminal: [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
