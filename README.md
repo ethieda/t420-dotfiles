@@ -10,7 +10,7 @@ Some configuration files I use.
 * Read [trunk(4)](http://man.openbsd.org/trunk) for information about `/etc/hostname.trunk0` or see [FAQ](https://www.openbsd.org/faq/faq6.html)
 
 # Desktop
-* Window Manager: [dwm](http://dwm.suckless.org/) (compiled from source) dwm is a dynamic window manager for X. It manages windows in tiled, monocle and floating layouts.
+* Window Manager: [dwm](http://dwm.suckless.org/) is a dynamic window manager for X. It manages windows in tiled, monocle and floating layouts.
 
 # Applications
 * Install Git from an OpenBSD Package Mirror.
