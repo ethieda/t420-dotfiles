@@ -23,5 +23,5 @@ Some configuration files I use.
 * Audio: [deadbeef](http://deadbeef.sourceforge.net/)
 * Videos: [mpv](https://mpv.io/)
 
-Install Applications:
+Installing Applications:
 ```#pkg_add git feh rxvt-unicode deadbeef mpv```
