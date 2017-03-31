@@ -7,7 +7,7 @@ Some configuration files I use.
 
 # Networking
 * Replace **$wifi** and **$password** on `/etc/hostname.iwn0` before using [netstart](http://man.openbsd.org/netstart) or read [hostname.if(5)](http://man.openbsd.org/hostname.if)
-* Read [trunk(4)](http://man.openbsd.org/trunk) for information about `/etc/hostname.trunk0`
+* Read [trunk(4)](http://man.openbsd.org/trunk) for information about `/etc/hostname.trunk0` or see [FAQ](https://www.openbsd.org/faq/faq6.html)
 
 # Desktop
 * Tiling Window Manager: [dwm](http://dwm.suckless.org/) (compiled from source)
