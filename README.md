@@ -22,6 +22,6 @@ Some configuration files I use.
 * Terminal: [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
 ``` # pkg_add rxvt-unicode```
 * Shell: [ksh](http://man.openbsd.org/ksh)
-* Audio: [deadbeef](http://deadbeef.sourceforge.net/)
+* Audio: [deadbeef](http://deadbeef.sourceforge.net/) ```#pkg_add deadbeef```
 * Videos: [mpv](https://mpv.io/)
   ``` # pkg_add mpv```
