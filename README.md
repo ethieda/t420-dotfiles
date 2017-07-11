@@ -1,6 +1,6 @@
 # [OpenBSD -current](https://www.openbsd.org/faq/current.html) amd64 on [Lenovo Thinkpad T420](http://shop.lenovo.com/us/en/laptops/thinkpad/t-series/t420s/)
 
-Some configuration files I use or feel free to use a general UNIX desktop setup reference.
+Some configuration files I use or feel free to use as a general UNIX desktop setup reference.
 
 # Admin
 * [doas.conf(5)](http://man.openbsd.org/doas.conf) AS CONFIGURED lets any user in the wheel group run any command as root.
