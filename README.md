@@ -13,13 +13,12 @@ Some configuration files I use or feel free to use as a general UNIX desktop set
 * Window Manager: [dwm](http://dwm.suckless.org/) is a dynamic window manager for X. It manages windows in tiled, monocle and floating layouts.
 
 # Applications
-* Install Git from an OpenBSD Package Mirror.
-* Clone some repositories from [git.suckless.org](http://git.suckless.org/):
-* ```$ for r in dwm dmenu sbase scc st; do git clone git://git.suckless.org/$r; done```
-* Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) (compiled from source)
-* In `~/.xinitrc` [feh](https://feh.finalrewind.org/) sets the wallpaper to [Croco Child By Bluro](https://interfacelift.com/wallpaper/details/3922/croco_child.html) from [Interface Lift Wallpapers](https://interfacelift.com/wallpaper/downloads/date/any/) @ 1366x768.
+* Installing Applications: ```#pkg_add git feh rxvt-unicode deadbeef mpv```
 * Terminal: [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
 * Shell: [ksh](http://man.openbsd.org/ksh)
 * Audio: [deadbeef](http://deadbeef.sourceforge.net/)
 * Videos: [mpv](https://mpv.io/)
-* Installing Applications: ```#pkg_add git feh rxvt-unicode deadbeef mpv```
+* Install Git and clone some repositories from [git.suckless.org](http://git.suckless.org/):
+* ```$ for r in dwm dmenu sbase scc st; do git clone git://git.suckless.org/$r; done```
+* Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) (compiled from source)
+* In `~/.xinitrc` [feh](https://feh.finalrewind.org/) sets the wallpaper to [Croco Child By Bluro](https://interfacelift.com/wallpaper/details/3922/croco_child.html) from [Interface Lift Wallpapers](https://interfacelift.com/wallpaper/downloads/date/any/) @ 1366x768.
