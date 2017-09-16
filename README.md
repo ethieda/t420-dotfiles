@@ -11,7 +11,7 @@ Some configuration files I use or feel free to use as a general UNIX desktop set
 
 # Desktop
 * Window Manager: [dwm](http://dwm.suckless.org/) is a dynamic window manager for X. It manages windows in tiled, monocle and floating layouts.
-* Applications launcher: [dmenu](http://tools.suckless.org/dmenu/) (compiled from source)
+* Applications launcher (Windows users might think of this as the Start Menu): [dmenu](http://tools.suckless.org/dmenu/) (compiled from source)
 
 # Applications
 * Installing Applications: ```#pkg_add git feh rxvt-unicode deadbeef mpv```
