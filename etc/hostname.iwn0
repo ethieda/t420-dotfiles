@@ -1,4 +1,2 @@
-nwid $wifi -chan
-wpakey "$password"
+nwid $wifi -chan wpakey "$password"
 up
-
