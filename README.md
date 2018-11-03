@@ -3,7 +3,7 @@
 Some configuration files I use, feel free to use them as a general desktop setup reference.
 
 # Admin
-* [doas.conf(5)](http://man.openbsd.org/doas.conf) AS CONFIGURED lets any user in the wheel group run any command as root.
+* [doas.conf(5)](http://man.openbsd.org/doas.conf)
 
 # Networking
 * Replace **$wifi** and **$password** on `/etc/hostname.iwn0` before using [netstart](http://man.openbsd.org/netstart) or read [hostname.if(5)](http://man.openbsd.org/hostname.if)
