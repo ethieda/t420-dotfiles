@@ -16,7 +16,7 @@ Some configuration files I use, feel free to use them as a general desktop setup
 
 # Applications
 * Installing Applications: ```#pkg_add git feh rxvt-unicode deadbeef mpv```
-* Terminal: [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html)
+* Terminal: [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) / [st](http://st.suckless.org/)
 * Shell: [ksh](http://man.openbsd.org/ksh)
 * Audio: [deadbeef](http://deadbeef.sourceforge.net/)
 * Videos: [mpv](https://mpv.io/)
