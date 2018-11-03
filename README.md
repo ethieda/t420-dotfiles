@@ -21,4 +21,4 @@ Some configuration files I use, feel free to use them as a general desktop setup
 * Audio: [deadbeef](http://deadbeef.sourceforge.net/)
 * Videos: [mpv](https://mpv.io/)
 * Install Git and clone some repositories from [git.suckless.org](http://git.suckless.org/):
-* ```$ for r in dwm dmenu sbase scc st; do git clone git://git.suckless.org/$r; done```
+* ```$ for r in dwm dmenu sbase slock st; do git clone git://git.suckless.org/$r; done```
