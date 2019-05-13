@@ -1,4 +1,4 @@
-# [OpenBSD -current](https://www.openbsd.org/faq/current.html) amd64 on [Lenovo Thinkpad T420](http://shop.lenovo.com/us/en/laptops/thinkpad/t-series/t420s/)
+# [OpenBSD -current](https://www.openbsd.org/faq/current.html) amd64 on [Lenovo Thinkpad T420](https://www.lenovo.com/us/en/laptops/thinkpad/t-series/t420)
 
 Some configuration files I use, feel free to use them as a general desktop setup reference.
 
